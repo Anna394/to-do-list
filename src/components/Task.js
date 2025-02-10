@@ -42,7 +42,7 @@ export default class Task extends Component {
             <span className="description">{description}</span>
             <span className="created">{this.state.timeAgo}</span>
           </label>
-          <button class="icon icon-edit"></button>
+          <button className="icon icon-edit"></button>
           <button className="icon icon-destroy" onClick={onDelete}></button>
         </div>
       </li>
